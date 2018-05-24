@@ -7,8 +7,8 @@ This module demonstrates:
  5. Two equality operators:   is   ==
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and  Ji Li.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -18,7 +18,7 @@ import rosegraphics as rg
 ########################################################################
 
 # ----------------------------------------------------------------------
-# TODO: 2.
+# DONE: 2.
 #  Step a:  READ the   mutate_point   function below.
 #
 #  Step b:  Note that the code in main has 5 parts numbered 1, 2, ... 5.
@@ -151,6 +151,26 @@ def main():
     print('T or F: point3 == point5?', point3 == point5)
     print('T or F: point3 == point4?', point3 == point4)
     print('T or F: point4 == point5?', point4 == point5)
+
+    print()
+    print('Finally, a tricky one that your instruction will explain:')
+    x = 'hello'
+    y = 'hello'
+    print()
+    print('T or F: "hello" is "hello"?', x is y)
+    print('T or F: "hello" == "hello"?', x == y)
+
+    x = 1 * x
+    y = 1 * y
+    print()
+    print('T or F: (1 * "hello") is (1 * "hello"?', x is y)
+    print('T or F: (1 * "hello") == (1 * "hello"?', x == y)
+
+    x = 2 * x
+    y = 2 * y
+    print()
+    print('T or F: (2 * "hello") is (2 * "hello"?', x is y)
+    print('T or F: (2 * "hello") == (2 * "hello"?', x == y)
 
 
 # ----------------------------------------------------------------------
